@@ -1,0 +1,396 @@
+
+*{
+    max-height: 100%;
+    max-width: 100%;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+    box-sizing: border-box;
+}
+/*Start First Section*/
+.landing-page {
+    background-image: url("../img/background.jpg");
+    background-size: cover;
+    min-height: 800px;
+    position: relative;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 0%,100% 0, 100% 100%, 0 80%);
+}
+.landing-page .header-area {
+    display:flex;
+    position: relative;
+}
+.header-area .logo {
+    width: 400px;
+    text-align: center;
+    margin-left: 2%;
+}
+.logo img {
+    width: 150px;
+    height: 100px;
+}
+.header-area .navbar {
+    list-style: none;
+    width: 100%;
+    padding-top: 15px;
+    text-align: right;
+    margin-right: 8%;
+}
+.header-area .navbar li {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 12px 18px;
+    font-size: 18px;
+}
+.header-area .navbar .icon-num {
+    background-color: #b2dd4c ;
+    text-align: center;
+    margin-left: 5px;
+    margin-bottom: -3px;
+    width: 13px;
+    height: 13px;
+    font-size: 14px;
+    font-weight: bolder;
+}
+.header-area .navbar li a {
+    width: 50px;
+    height: 80px;
+    font-size: 18px;
+    text-decoration: none;
+    color: rgba(8, 8, 8, 0.603);
+}
+.header-area .navbar li:hover ,.active {
+    background:  #b2dd4c;
+}
+.header-area .navbar li.shopping:hover,  
+.header-area .navbar li.search:hover {
+    background: transparent;
+}
+.landing-page .input {
+    position: absolute;
+    margin-top: -15px;
+    border: 5px solid #e7e5e5;
+    left: 70%;
+}
+.landing-page .input input {
+    border: none;
+    width: 250px;
+    height: 30px;
+    color: #000;
+    padding:5px;
+    font-size: 18px;
+    display: none;
+    font-family: 'Raleway', sans-serif;
+}
+.introduction-text {
+    position: absolute;
+    left: 20%;
+    top: 30%;
+    width: 400px;
+    height: 500px;
+}
+.introduction-text h1 {
+    margin-bottom: 15px;
+    font-weight: bold;
+    font-size: 45px;
+}
+.introduction-text p {
+    font-size: 18px;
+    margin-bottom: 15px;
+    line-height: 1.8;
+}
+.introduction-text button {
+    border: 1px solid #d3c9c9;
+    border-radius: 3px;
+    text-transform: uppercase;
+    cursor: pointer;
+    font-weight: bold;
+}
+.introduction-text  #check {
+   background-color: #b2dd4c;
+   color: #fff;
+   width: 150px;
+   height: 40px;
+} 
+.introduction-text  #check:hover {
+    background-color: #fff;
+    color: rgba(0, 0, 0, 0.726);
+}
+.introduction-text #buy {
+   background-color:white;
+   margin-left: 5px;
+   width: 110px;
+   height: 40px;
+}
+.introduction-text #buy:hover  {
+    background-color: #b2dd4c; 
+    color: #fff;
+}
+/*Start Seconde Section */
+.features {
+    position: relative;
+    height: 1000px;
+    width: 100%;
+    margin-top: -180px;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0% 0%,100% 20%, 100% 80%, 0 100%);
+}
+.features .features-text {
+    position: absolute;
+    top: 18%;
+    left: 20%;
+}
+.features .features-text h1 {
+    margin: 40px;
+    font-weight: 505;
+    font-size: 45px;
+    text-align: center;
+    text-transform: capitalize;
+}
+.features .features-content {
+    position: relative;
+    top: 38%;
+    width: 100%;
+    height: 420px;
+    text-align: center;
+}
+.features .features-content .features-div {
+    position: relative;
+    display: inline-block;
+    width: 20%;
+    height: 380px;
+    margin: 5px -5px 0px 0px;
+    text-align: center;
+    padding: 15px;
+}
+.features .features-content .features-div div {
+    width: 120px;
+    height: 100px;
+    margin-left: 30%;
+    background-color: #b2dd4c;
+    text-align: center;
+    padding-top: 12px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+.features .features-content .features-div:hover {
+    border: 2px solid #b2dd4c ;
+    border-radius: 4px;
+}
+.features .features-content .features-div h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+}
+.features .features-content .features-div p {
+    line-height: 1.8;
+}
+.features .features-content i {
+    color: #fff;
+    margin-top: 15px;
+}
+.features .features-content .features-div button {
+    width: 120px;
+    height: 40px;
+    margin-top:20px;
+    background-color: #fff;
+    text-transform: capitalize;
+    border: 1px solid #d3c9c9;
+    border-radius: 3px;
+}
+.features .features-content .features-div button:hover {
+    background-color: #b2dd4c;
+    cursor: pointer;
+}
+/*Start Third Section */
+.exclusive{
+    position: relative;
+    height: 950px;
+    margin-top: -200px;
+    background-color: #f5f5f5;
+    -webkit-clip-path: polygon(0 0, 100% 0, 100% 56%, 0 100%);
+    clip-path: polygon(0 20%,100% 0, 100% 82%, 0 100%);
+}
+.exclusive .exclusive-image img{
+    position: absolute;
+    width: 450px;
+    height: 700px;
+    left: 60%;
+    top: 180px;
+    display: inline-block;
+   
+}
+.exclusive .exclusive-contant{
+    position: absolute;
+    display: inline-block;
+    top: 250px;
+    width: 750px;
+    height: 400px;
+    margin-left: 40px;
+}
+.exclusive .exclusive-contant .exclusive-text {
+
+    width: 700px;
+    height: 300px;
+    border: 5px;
+    margin-left: 50px;
+    margin-top: 15px;
+    margin-bottom: 2%;
+    padding: 10px;
+}
+.exclusive .exclusive-contant .exclusive-text h1 {
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 40px;
+}
+.exclusive .exclusive-contant .exclusive-text h6 {
+    font-size: 18px;
+    line-height: 1.8;
+    font-weight: 505;
+    margin-bottom: 20px;
+    color:#1111119c;
+}
+.exclusive .exclusive-contant .exclusive-text p {
+    font-size: 20px;
+    line-height: 1.8;
+    color:#1111119c;
+}
+.exclusive .exclusive-contant .stor {
+    margin-left: 70px;
+}
+.exclusive .exclusive-contant .stor img {
+    margin: 10px;
+}
+/*End Third Section*/
+/*Start fourth Section*/
+.related {
+   position: relative;
+   height: 800px;
+}
+.related .related-text {
+    position: absolute;
+    left: 30%;
+    top: 70px;
+}
+.related .related-text h1 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+.related .related-text p {
+    font-size: 20px;
+}
+
+.related .related-product {
+    position: absolute;
+    top: 200px;
+    left: 12px;
+    height: 480px;
+}
+.related .related-product .related-item {
+    width: 23%;
+    margin-left: 17px;
+    display: inline-block;
+
+}
+.related .related-product .related-item img {
+    max-height: 100%;
+    max-width: 100%;
+}
+.related .related-product .related-item h3 {
+    display: inline-block;
+    width: 50%;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-right: 20px; 
+    text-transform: capitalize;
+}
+.related .related-product .related-item p {
+    color: #0808088a;
+}
+.related .related-product .related-item i {
+    color: #b2dd4c ;
+}
+.related .related-product .related-item .item-info {
+    border: 3px solid #f1f1f1;
+    padding: 10px 15px;
+    width: 100%;
+    height: 90px;
+    margin-top: -4px;
+}
+.related .related-product .related-item .btn {
+    border-right: 3px solid #f1f1f1;
+    border-left: 3px solid #f1f1f1;
+    border-bottom: 3px solid #f1f1f1;
+    border-top: 0.5px solid #f1f1f1;
+    background: #f1f1f1;
+    ;
+}
+
+.related .related-product .related-item button {
+    width: 49.32%;
+    height: 50px;
+    border: 1px solid #f1f1f1;
+    background-color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.related .related-product .related-item button:hover {
+    background-color: #f5f5f5;
+}
+/*End Fourth Section*/
+/*Start fifth Section*/
+.card{
+    position: relative;
+    background-color: #f5f5f5;
+    height: 150px;
+    padding: 60px;
+}
+.card .card-info {
+    position: absolute;
+   display: inline-block;
+   width: 50%;
+   left: 10%;
+   margin-top: 10px;
+   font-weight: bold;
+   font-size: 18px;
+   color: rgb(92, 92, 92) ;
+}
+.card button {
+    position: absolute;
+    width: 160px;
+    height: 45px;
+    left: 82%;
+    color: #fff;
+    font-weight: 505;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    background-color: #b2dd4c;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: #f5f5f5;
+    color: #000;
+    border: 2px solid #bdbabae8;
+    border-radius: 4px;
+}
+/*End Fifth Section*/
+/*Start Sixth Section*/
+.copyright{
+    background-color: rgba(0, 0, 0, 0.849);
+    text-align: center;
+    height: 80px;
+    padding: 30px;
+}
+.copyright p {
+    color: rgba(255, 255, 255, 0.801);
+    font-size: 16px;
+}
+/*End Sixth Section*/
